@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="fc:frame:image:aspect_ratio" content="1:1"/>
         <meta property="fc:frame:button:1" content="Mint NFT" />
         <meta property="fc:frame:button:1:action" content="tx" />
-        <meta property="fc:frame:button:1:target" content={`${HOST_URL}/api/frame/op/get-tx-frame`}/>
+        <meta property="fc:frame:button:1:target" content={`${HOST_URL}/api/frame/base/get-tx-frame`}/>
       </Head>
 
       <h1>X-FRAME</h1>
