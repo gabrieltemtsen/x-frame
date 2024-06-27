@@ -28,7 +28,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             abi: erc721ContractABI,
             to: erc721ContractAddress,
             data: data,
-            value: "0",
+            value: "0.0001",
         }
     })
 }
